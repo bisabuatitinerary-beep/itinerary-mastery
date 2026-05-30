@@ -23,11 +23,12 @@
     color: var(--warm-white);
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 4rem;
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   /* Background pattern */
@@ -37,6 +38,7 @@
     background: radial-gradient(ellipse at 20% 20%, rgba(201,148,58,0.08) 0%, transparent 50%),
                 radial-gradient(ellipse at 80% 80%, rgba(201,148,58,0.05) 0%, transparent 50%);
     pointer-events: none;
+    z-index: 0;
   }
 
   .card {
@@ -277,8 +279,8 @@
   </a>
 
   <p class="support-text">
-    Ada pertanyaan? Hubungi kami via WhatsApp<br>
-    <a href="https://wa.me/628192114011">+62 819-2114-011</a>
+    Ada pertanyaan? Hubungi kami via Email<br>
+    <a href="mailto:bisabuatitinerary@gmail.com">bisabuatitinerary@gmail.com</a>
   </p>
 </div>
 
